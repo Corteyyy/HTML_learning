@@ -1,0 +1,155 @@
+
+
+body {
+    margin: 0;
+    background-image: url("background.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: black;
+    background-position: center;
+    font-family: 'Raleway', sans-serif;
+}
+header {
+    display: flex;
+    margin-left: 75px;
+    margin-right: 20px;
+
+}
+header div{
+    display: flex;
+    justify-content: center;
+}
+p{
+    margin: 0;
+}
+
+#Flats_near_sea {
+    display: flex;
+    color: white;
+    font-size: 60px;
+    margin-top: 200px;
+    margin-left: 37px;
+    border-right: 6px solid white;
+    border-left: 6px solid white;
+    max-width: 60%;
+    padding-bottom: 100px;
+    padding-left: 32px;
+}
+#Bron {
+    display: flex;
+    color: white;
+    font-size: 24px;
+    margin-top: -50px;
+    margin-left: 70px;
+}
+#Zayavka {
+    display: flex;
+    color: white;
+    font-size: 14px;
+    margin-left: 70px;
+}
+form{
+    display: flex;
+    justify-content: space-between;
+    max-width: 800px;
+    margin-left: 68px;
+    margin-top: 30px;
+}
+input{
+    background-color: #dddddd;
+    height: 47px; width: 262px;
+    border: none;
+    outline: none;
+    border-radius: 3px;
+    font-size: 18px;
+}
+.Knopka{
+    background-color: #4BD5E9;
+    border: none;
+    border-radius: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: 'Raleway', sans-serif;
+    transition: background-color 0.5s ease;
+}
+.Knopka:hover{
+    color: #328c9a;
+    background-color: #174448;
+}
+main a{
+    font-family: 'Raleway', sans-serif;
+    color: #959595;
+    text-overline-color: #959595;
+    text-decoration: underline;
+    transition: color 0.3s ease;
+}
+main a:hover{
+    color: #FFFFFF;
+}
+li a{
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    color: #FFFFFF;
+    background: none;
+    margin-right: 100px;
+    margin-top: 20px;
+    text-decoration: none;
+    transition: color 0.3s ease;
+    display: flex;
+}
+li a:hover{
+    color: black;
+}
+
+ul{
+    display: flex;
+    text-decoration: none;
+    margin-top: 35px;
+    margin-left: 350px;
+}
+aside a{
+    display: flex;
+    font-family: 'Raleway', sans-serif;
+    font-size: 36px;
+    text-decoration: none;
+    color: white;
+    margin-left: 1250px;
+    margin-bottom: 350px;
+    margin-top: -295px;
+    transition: color 0.3s ease;
+}
+aside a:hover{
+    color: #959595;
+}
+footer a{
+    display: flex;
+    font-family: 'Raleway', sans-serif;
+    font-size: 36px;
+    text-decoration: none;
+    color: white;
+    max-width: 390px;
+    max-height: 36px;
+    margin-top: -100px;
+    transition: color 0.3s ease;
+}
+footer a:hover{
+    color: #959595;
+}
+footer div{
+    display: flex;
+    font-family: 'Raleway', sans-serif;
+    font-size: 36px;
+    text-decoration: none;
+    color: white;
+    margin-left: 70px;
+}
+#Sell_house{
+    display: flex;
+    font-family: 'Raleway', sans-serif;
+    font-size: 36px;
+    text-decoration: none;
+    color: white;
+    margin-top: -100px;
+    margin-left: 1300px;
+}
